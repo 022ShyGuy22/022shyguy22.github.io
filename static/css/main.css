@@ -1,3 +1,4 @@
+/* 1. Definice barev (Proměnné) - To dělají profíci */
 :root {
     --bg-color: #161a22;
     --text-color: #FFFFFF;
@@ -12,6 +13,43 @@ header {
     width: 100%;
     z-index: 1000;
     transition: background 0.3s, box-shadow 0.3s;
+}
+
+/* Header layout: separate GitHub pill from navigation */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+}
+.github-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(114, 90, 193, 0.25);
+}
+.github-pill:hover {
+    transform: scale(1.02);
+    background: rgba(114, 90, 193, 0.35);
+}
+.main-nav {
+    /* keep navigation compact on the right */
+}
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+.main-nav a:hover {
+    color: var(--hover-color);
 }
 
 body {
