@@ -6,6 +6,9 @@
     <title>Portfolio | Matěj Albert</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/styles.css">
+    <style>
+        html, body { box-sizing: border-box; margin: 0; overflow-x: hidden; }
+    </style>
 </head>
 <body>
 
@@ -14,9 +17,12 @@
             <div class="github">
             <a href="https://github.com/022ShyGuy22" target="_blank" rel="noopener noreferrer" class="github-link">
             <img class="logo" src="static/img/github_logo.png" alt="Můj GitHub" />
-                <span class="github-text">Můj GitHub profil</span>
-                </a>
+            <span class="github-text">Můj GitHub profil</span>
+            </a>
             </div>
+
+            <button class="menu-toggle" aria-label="Otevřít menu" aria-expanded="false">&#9776;</button>
+
             <ul>
                 <li><a href="#about">O mně</a></li>
                 <li><a href="#projects">Projekty</a></li>
@@ -27,26 +33,30 @@
     </header>
 
     <main>
-        <section id="hero">
-            <h1>Portfolio - <span class="highlight">Matěj Albert</span></h1>
-        </section>
-        <section id="about"> <h2>O mně</h2>
-            <p>Jmenuji se Matěj Albert, je mi 14 let a ...</p>
-        </section>
+        <div class="content-box">
+            <section id="hero">
+                <h1>Portfolio - <span class="highlight">Matěj Albert</span></h1>
+            </section>
 
-        <section id="projects">
-            <h2>Moje práce</h2>
-            <div class="grid">
-                <article class="card">
-                    <h3>Simulátor ideální....</h3>
-                    <p>Můj první velký projekt.</p>
-                </article>
-                <article class="card">
-                    <h3>Portfolio web</h3>
-                    <p>To, na co se právě díváte.</p>
-                </article>
-            </div>
-        </section>
+            <section id="about">
+                <h2>O mně</h2>
+                <p>Jmenuji se Matěj Albert, je mi 14 let a ...</p>
+            </section>
+
+            <section id="projects">
+                <h2>Moje práce</h2>
+                <div class="grid">
+                    <article class="card">
+                        <h3>Simulátor ideální....</h3>
+                        <p>Můj první velký projekt.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Portfolio web</h3>
+                        <p>To, na co se právě díváte.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
     </main>
 
 </body>
