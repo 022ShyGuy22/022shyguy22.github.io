@@ -101,8 +101,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--accent-color);
+    background: var(--accent-color);
 }
 
 #hero {
