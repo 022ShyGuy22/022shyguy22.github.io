@@ -118,6 +118,17 @@ nav ul li a:hover {
     color: var(--accent-color);
 }
 
+#umim {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#umim img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
 #projects {
     padding: 80px 10%;
     text-align: center;
