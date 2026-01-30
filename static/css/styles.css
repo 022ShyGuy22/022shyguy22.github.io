@@ -119,7 +119,7 @@ nav ul li a:hover {
     color: var(--accent-color);
 }
 
-#about, #projects {
+#projects {
     padding: 80px 10%;
     text-align: center;
 }
@@ -142,83 +142,4 @@ nav ul li a:hover {
     transform: translateY(-10px);
     border-color: var(--accent-color);
     background: rgba(114, 90, 193, 0.05);
-}
-
-.menu-toggle {
-    display: none;
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.08);
-    color: var(--text-color);
-    padding: 6px 10px;
-    font-size: 1.4rem;
-    border-radius: 8px;
-}
-
-/* mobilní pravidla */
-@media (max-width: 768px) {
-    nav {
-        padding: 0.9rem 1rem;
-    }
-
-    .github-text {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 6px;
-    }
-
-    nav ul {
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        flex-direction: column;
-        background: rgba(20,24,32,0.98);
-        padding: 8px;
-        gap: 6px;
-        border-radius: 10px;
-        display: none;
-        min-width: 160px;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.45);
-        z-index: 1100;
-    }
-
-    nav ul.show {
-        display: flex;
-    }
-
-    nav ul li a {
-        padding: 10px 14px;
-        font-size: 0.95rem;
-    }
-
-    .content-box {
-        margin: 80px 12px 40px;
-        padding: 20px;
-    }
-
-    #hero {
-        padding: 36px 10px 12px;
-    }
-
-    #hero h1 {
-        font-size: 2.2rem;
-    }
-
-    #about, #projects {
-        padding: 40px 6%;
-        text-align: left;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-        gap: 18px;
-    }
-
-    .logo {
-        height: 26px;
-    }
 }
