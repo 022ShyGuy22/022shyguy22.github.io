@@ -150,7 +150,7 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: scale(1.05);
     border-color: var(--accent-color);
     background: rgba(114, 90, 193, 0.05);
 }
