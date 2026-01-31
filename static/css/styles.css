@@ -126,8 +126,9 @@ nav ul li a:hover {
 }
 
 #projects {
-    padding: 80px 10%;
-    text-align: center;
+    display: flex;
+    gap: 30px;  
+    flex-direction: column;
 }
 
 .grid {
