@@ -6,7 +6,7 @@
     <title>Portfolio | Matěj Albert</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/styles.css">
-    <link rel="JavaScript" href="static/js/main.js">
+    <script src="static/js/main.js" defer></script>
     <style>
         html, body { box-sizing: border-box; margin: 0; overflow-x: hidden; }
     </style>
@@ -21,11 +21,20 @@
             <span class="github-text">Můj GitHub profil</span>
             </a>
             </div>
-            <ul>
+
+            <!-- přidané: tlačítko pro mobilní menu -->
+            <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Otevřít menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul id="primary-menu">
                 <li><a href="#about">O mně</a></li>
                 <li><a href="#umim">Umím s</a></li>
-                <li><a href="#zkusenosti">Zkušenosti</a></li>
                 <li><a href="#zajmy">Zájmy</a></li>
+                <li><a href="#zkusenosti">Zkušenosti</a></li>
+                <li><a href="#courses">Kurzy</a></li>                
                 <li><a href="#projects">Projekty</a></li>
             </ul>
         </nav>
@@ -43,17 +52,43 @@
             </section>
             <section id="umim">
                 <h2>Umím s: </h2>
-                <img src="static/img/windows_logo.png" alt="Windows" /> 
-                <img src="static/img/linux_logo.webp" alt="Linux" />
-                <img src="static/img/python_logo.png" alt="Python" />
-                <img src="static/img/arduino_logo.png" alt="Arduino" />
-                <img src="static/img/micropython_logo.png" alt="Micropython" />
-                <img src="static/img/github_logo.png" alt="Git" />
-                <img src="static/img/blender_logo.png" alt="Blender" />
-                <img src="static/img/davinci_resolve_logo.png" alt="Davinci Resolve" />
-                <img src="static/img/html_logo.svg" alt="HTML" />
-                <img src="static/img/css_logo.svg" alt="CSS" />
-                <img src="static/img/javascript_logo.jpg" alt="JavaScript"/>
+                <a href="https://cs.wikipedia.org/wiki/Microsoft_Windows" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/windows_logo.png" alt="Windows">
+                </a>                
+                <a href="https://cs.wikipedia.org/wiki/Linux" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/linux_logo.webp" alt="Linux">
+                </a>                
+                <a href="https://www.w3schools.com/python/python_intro.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/python_logo.png" alt="Python">
+                </a>                
+                <a href="https://cs.wikipedia.org/wiki/Arduino" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/arduino_logo.png" alt="Arduino">
+                </a>
+                <a href="https://en.wikipedia.org/wiki/MicroPython" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/micropython_logo.png" alt="Micropython">
+                </a>
+                <a href="https://cs.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/github_logo.png" alt="Github">
+                </a>
+                <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/blender_logo.png" alt="Blender">
+                </a>
+                <a href="https://cs.wikipedia.org/wiki/DaVinci_Resolve" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/davinci_resolve_logo.png" alt="Davinci Resolve">
+                </a>
+                <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/html_logo.svg" alt="Html">
+                </a>
+                <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/css_logo.svg" alt="CSS">
+                </a>   
+                <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="static/img/javascript_logo.jpg" alt="JavaScript">
+                </a>                                             
+            </section>
+            <section id="zajmy">
+                <h2>Zájmy</h2>
+                <p>Mimo programování a IT správy mám i další zájmy, které mě baví a rozvíjejí mé dovednosti. Mezi mé koníčky patří například elektronika, kde rád experimentuji s různými obvody a zařízeními. Také mě zajímá kybernetická bezpečnost.</p>
             </section>
             <section id="zkusenosti">
                 <h2>Moje zkušenosti</h2>
@@ -85,9 +120,18 @@
                     </article>
                 </div>
             </section>
-            <section id="zajmy">
-                <h2>Zájmy</h2>
-                <p>Mimo programování a IT správy mám i další zájmy, které mě baví a rozvíjejí mé dovednosti. Mezi mé koníčky patří například elektronika, kde rád experimentuji s různými obvody a zařízeními. Také mě zajímá kybernetická bezpečnost.</p>
+            <section id="courses">
+                <h2>Kurzy</h2>
+                <div class="grid">
+                    <article class="card">
+                        <h3>Úvod do Pythonu</h3>
+                        <p>Online kurz na platformě Codecademy.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Základy kybernetické bezpečnosti</h3>
+                        <p>Online kurz na platformě Cybrary.</p>
+                    </article>
+                </div>
             </section>
             <section id="projects">
                 <h2>Moje projekty</h2>
