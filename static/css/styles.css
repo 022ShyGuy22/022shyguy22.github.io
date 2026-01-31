@@ -144,6 +144,12 @@ nav ul li a:hover {
     transition: all 0.3s ease;
 }
 
+.card a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .card:hover {
     transform: scale(1.05);
     border-color: var(--accent-color);
