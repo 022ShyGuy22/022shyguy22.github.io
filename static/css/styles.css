@@ -108,23 +108,16 @@ nav ul li a:hover {
     margin: 0;
 }
 
-#about {
-    margin-top: 40px;
-    padding: 32px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(114, 90, 193, 0.25);
-    border-radius: 16px;
-}
-
 #umim {
     display: flex;
     gap: 30px;
-    margin-top: 30px;
-    padding: 32px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(114, 90, 193, 0.25);
-    border-radius: 16px;
+    margin: 60px 0;
+    padding: 40px 20px;
+    background: rgba(20, 24, 32, 0.9); 
+    border-left: 4px solid var(--accent-color); 
+    border-radius: 8px; 
 }
+
 
 
 #umim a {
@@ -139,15 +132,6 @@ nav ul li a:hover {
     height: 48px;
     object-fit: contain;
 }
-
-#zajmy {
-    margin-top: 60px;
-    padding: 32px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(114, 90, 193, 0.25);
-    border-radius: 16px;
-}
-
 
 #projects {
     display: flex;
@@ -176,7 +160,6 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    transform: scale(1.05);
     border-color: var(--accent-color);
     background: rgba(114, 90, 193, 0.05);
 }
