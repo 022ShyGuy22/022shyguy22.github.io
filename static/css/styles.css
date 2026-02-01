@@ -119,6 +119,14 @@ nav ul li a:hover {
     gap: 30px;
     margin-top: 30px;
 }
+
+#umim a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
 #umim img {
     width: 48px;
     height: 48px;
