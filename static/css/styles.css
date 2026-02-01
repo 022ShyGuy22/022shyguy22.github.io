@@ -108,11 +108,24 @@ nav ul li a:hover {
     margin: 0;
 }
 
+#about {
+    margin-top: 40px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(114, 90, 193, 0.25);
+    border-radius: 16px;
+}
+
 #umim {
     display: flex;
     gap: 30px;
     margin-top: 30px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(114, 90, 193, 0.25);
+    border-radius: 16px;
 }
+
 
 #umim a {
     display: flex;
@@ -126,6 +139,15 @@ nav ul li a:hover {
     height: 48px;
     object-fit: contain;
 }
+
+#zajmy {
+    margin-top: 60px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(114, 90, 193, 0.25);
+    border-radius: 16px;
+}
+
 
 #projects {
     display: flex;
