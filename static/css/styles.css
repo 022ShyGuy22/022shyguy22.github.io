@@ -196,18 +196,18 @@ h3 {
 }
 
 /* Lists */
-#courses ul {
+#krouzky ul {
     list-style: none;
     padding: 0;
 }
 
-#courses ul li {
+#krouzky ul li {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
     border-left: 3px solid var(--accent-color);
 }
 
-#courses ul li h3 {
+#krouzky ul li h3 {
     margin-bottom: 0.5rem;
 }
 
